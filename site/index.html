@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bentoshi | Japanese Kitchen, Sushi and Bento</title>
+  <meta name="description" content="Bentoshi is a Japanese restaurant serving sushi platters, bento boxes and ramen for the whole family. Reserve a table online.">
+  <meta property="og:title" content="Bentoshi | Japanese Kitchen, Sushi and Bento">
+  <meta property="og:description" content="Sushi platters, bento boxes and ramen for every age at the table. Reserve a table online.">
+  <meta property="og:image" content="assets/frames/desktop/f_0001.webp">
+  <meta name="theme-color" content="#181a27">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/frames/desktop/f_0001.webp">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header class="topo">
+  <a href="#inicio" class="marca" aria-label="Bentoshi">
+    <img src="assets/logo.png" alt="Bentoshi" class="marca-logo">
+  </a>
+  <nav class="menu" aria-label="Sections">
+    <a href="#menu">Menu</a>
+    <a href="#story">Our Story</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#contact">Contact</a>
+    <a href="#reserve" class="menu-cta">Reserve a table</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- OPENING: macro of nigiri, crane up to the platter, then the full table -->
+  <section id="inicio" class="cine" style="--altura: 420vh">
+    <div class="cine-palco">
+      <canvas class="cine-canvas" aria-hidden="true"></canvas>
+      <div class="cine-vinheta"></div>
+
+      <div class="momento" data-de="0" data-ate="0.28">
+        <div class="painel painel--vidro">
+          <h1 class="titulo-abertura">Bentoshi</h1>
+          <p class="apoio">Sushi, bento and ramen, made to order from rice we cook every morning.</p>
+        </div>
+      </div>
+      <div class="momento momento--direita" data-de="0.36" data-ate="0.64">
+        <div class="painel painel--vidro">
+          <p class="destaque">One platter, something on it for the kids, the grandparents and you.</p>
+        </div>
+      </div>
+      <div class="momento momento--centro" data-de="0.72" data-ate="1">
+        <div class="painel painel--vidro">
+          <p class="destaque">Your table is ready when you are.</p>
+          <a href="#reserve" class="botao">Reserve a table</a>
+        </div>
+      </div>
+
+      <div class="cine-dica" aria-hidden="true"><span></span>scroll</div>
+    </div>
+  </section>
+
+  <!-- 01 SIGNATURE DISHES: art left, menu right -->
+  <section id="menu" class="secao">
+    <img class="arte arte--esquerda" src="assets/img/menu.webp" alt="" loading="lazy">
+    <div class="secao-grade secao-grade--direita">
+      <div class="painel revelar">
+        <span class="rotulo">01</span>
+        <h2>Signature Dishes</h2>
+        <ul class="pratos">
+          <li><strong>Bentoshi Platter</strong><em>$38</em><span>Twelve pieces of nigiri and maki, chef's pick of the day. Serves two.</span></li>
+          <li><strong>Salmon Aburi Nigiri</strong><em>$14</em><span>Torched salmon, sweet soy glaze, a pinch of sea salt.</span></li>
+          <li><strong>Spicy Tuna Roll</strong><em>$13</em><span>Tuna, chili mayo, cucumber, crisp tempura flakes.</span></li>
+          <li><strong>Chicken Teriyaki Bento</strong><em>$17</em><span>Grilled thigh, rice, tamagoyaki, pickles, miso soup.</span></li>
+          <li><strong>Tonkotsu Ramen</strong><em>$16</em><span>Pork bone broth, chashu, soft egg, scallion.</span></li>
+          <li><strong>Little Bento</strong><em>$9</em><span>For kids: chicken karaage, rice, corn, fruit.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 OUR STORY: art right, text left -->
+  <section id="story" class="secao">
+    <img class="arte arte--direita" src="assets/img/story.webp" alt="" loading="lazy">
+    <div class="secao-grade">
+      <div class="painel revelar">
+        <span class="rotulo">02</span>
+        <h2>Our Story</h2>
+        <p>Bentoshi started with a lunch box. In Japan, a bento is a full meal packed with care: rice, something grilled, something pickled, something sweet, each in its own corner.</p>
+        <p>We built a restaurant around that idea. The rice goes into the pot before we open, the fish is sliced to order, and every plate is sized so the whole family can share.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 OUR PHILOSOPHY: three pillars with line icons -->
+  <section id="philosophy" class="secao secao--larga filosofia">
+    <img class="arte arte--fundo" src="assets/img/philosophy.webp" alt="" loading="lazy">
+    <div class="revelar">
+      <span class="rotulo">03</span>
+      <h2>Our Philosophy</h2>
+    </div>
+    <div class="pilares">
+      <article class="pilar revelar">
+        <img class="icone" src="assets/icons/sushi.webp" alt="" width="120" height="120" loading="lazy">
+        <h3>Freshness</h3>
+        <p>We source only the freshest ingredients, delivered daily to ensure peak quality and flavor.</p>
+      </article>
+      <article class="pilar revelar">
+        <img class="icone" src="assets/icons/knife.webp" alt="" width="120" height="120" loading="lazy">
+        <h3>Craftsmanship</h3>
+        <p>Each dish is meticulously prepared by our skilled chefs with years of training in traditional techniques.</p>
+      </article>
+      <article class="pilar revelar">
+        <img class="icone" src="assets/icons/chopsticks.webp" alt="" width="120" height="120" loading="lazy">
+        <h3>Harmony</h3>
+        <p>We believe in creating balanced flavors that respect the natural qualities of each ingredient.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 04 PROMO -->
+  <section id="promo" class="secao">
+    <img class="arte arte--direita" src="assets/img/promo.webp" alt="" loading="lazy">
+    <div class="secao-grade">
+      <div class="painel revelar">
+        <span class="rotulo">04</span>
+        <h2>30% off your first sushi platter</h2>
+        <p>First time at Bentoshi? Book a table, mention this offer when you order, and your first sushi platter is 30% off.</p>
+        <a href="#reserve" class="botao">Reserve a table</a>
+        <p class="nota">For first-time guests. One platter per table. Dine-in only.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 TESTIMONIALS (sample content for the demo) -->
+  <section id="reviews" class="secao secao--larga">
+    <img class="arte arte--fundo arte--suave" src="assets/img/reviews.webp" alt="" loading="lazy">
+    <div class="painel painel--cabecalho revelar">
+      <span class="rotulo">05</span>
+      <h2>What Guests Say</h2>
+    </div>
+    <div class="cartoes">
+      <blockquote class="painel cartao depoimento revelar">
+        <p>We came for my daughter's birthday. She ordered the Little Bento, my parents split the platter, and everyone left full.</p>
+        <cite>Maria L.</cite>
+      </blockquote>
+      <blockquote class="painel cartao depoimento revelar">
+        <p>The aburi salmon is the reason I keep coming back. You can tell the rice is made fresh.</p>
+        <cite>Daniel R.</cite>
+      </blockquote>
+      <blockquote class="painel cartao depoimento revelar">
+        <p>Booked online in a minute, table was ready when we walked in. The tonkotsu broth is rich without being heavy.</p>
+        <cite>Priya S.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- 06 BOOKING: HighLevel calendar embed -->
+  <section id="reserve" class="secao secao--contato">
+    <img class="arte arte--fundo arte--suave" src="assets/img/reserve.webp" alt="" loading="lazy">
+    <div class="painel painel--form revelar">
+      <span class="rotulo">06</span>
+      <h2>Reserve a Table</h2>
+      <p>Pick a date and time, tell us how many are coming, and we will hold the table.</p>
+      <div class="agenda">
+        <iframe src="https://link.kimberlygracedestriza.com/widget/booking/MlyrYLYphmreBaVb0Ofu" allow="payment" style="width: 100%;border:none;overflow: hidden;" scrolling="no" id="MlyrYLYphmreBaVb0Ofu_1795352107546" title="Reserve a table at Bentoshi"></iframe>
+        <script src="https://link.kimberlygracedestriza.com/js/form_embed.js" type="text/javascript"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 CONTACT INFO (sample details for the demo) -->
+  <section id="contact" class="secao secao--info">
+    <div class="painel painel--info revelar">
+      <span class="rotulo">07</span>
+      <h2>Visit Us</h2>
+      <dl class="info">
+        <div><dt>Address</dt><dd>100 Main Street<br>Anytown, USA</dd></div>
+        <div><dt>Hours</dt><dd>Tue to Sun, 11:30 am to 10 pm<br>Closed Mondays</dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+15550102400">(555) 010-2400</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:info@bentoshi.com">info@bentoshi.com</a></dd></div>
+      </dl>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="painel rodape-painel">
+    <img src="assets/logo.png" alt="Bentoshi" class="marca-logo">
+    <span>Japanese kitchen, sushi and bento</span>
+    <span>&copy; <span data-ano></span> Bentoshi</span>
+  </div>
+</footer>
+
+<a class="whats" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3Zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.3-4-.3-.4a10.4 10.4 0 0 1-1.6-5.6C5.5 9.8 10.2 5.2 16 5.2s10.5 4.6 10.5 10.4S21.8 26.1 16 26.1Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 .8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4Z"/></svg>
+</a>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

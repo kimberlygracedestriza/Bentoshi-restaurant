@@ -1,0 +1,55 @@
+{
+  "nome": "Bentoshi",
+  "slug": "bentoshi",
+  "negocio": "Japanese food restaurant, sushi and bento",
+  "publico": "All ages, families and groups, US",
+  "identidade": {
+    "cores": {
+      "fundo": "#181a27",
+      "texto": "#ffffff",
+      "acento": "#d6282e"
+    },
+    "fontes": {
+      "titulo": "Gang of Three",
+      "texto": "Poppins"
+    },
+    "clima": [
+      "warm",
+      "precise",
+      "welcoming"
+    ],
+    "tema": "escuro"
+  },
+  "logo": "/Users/kimberlygracedestriza/aula-ia/Projects/Bentoshi/Bentoshi Logo.png",
+  "favicon": "/Users/kimberlygracedestriza/aula-ia/Projects/Bentoshi/Bentoshi Favicon.png",
+  "copy": {
+    "frase_abertura": "",
+    "cta_principal": "Reserve a table",
+    "diferenciais": [],
+    "textos_prontos": "",
+    "depoimentos_reais": [],
+    "promo": "30% off any sushi platter for first-time customers",
+    "depoimentos_demo": "Demo site: sample testimonials allowed, mark as sample"
+  },
+  "referencias": [],
+  "whatsapp": {
+    "numero": "639568729983",
+    "mensagem": "Hi Bentoshi, I'd like to reserve a table."
+  },
+  "email_contato": "info@bentoshi.com",
+  "secoes": [
+    "signature dishes (menu)",
+    "our story",
+    "our philosophy (3 pillars)",
+    "promo banner",
+    "testimonials",
+    "booking form",
+    "contact info"
+  ],
+  "conceito": "From a single grain of rice to a full table.",
+  "modelos": {
+    "video": "google/veo-3.1",
+    "imagem": "google/gemini-3-pro-image"
+  },
+  "demo": true
+}
